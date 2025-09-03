@@ -9,16 +9,15 @@ public class Main {
         //creates a new ArrayList
         ArrayList<String> dice = new ArrayList<String>();
 //            allows for user to input information
-        Scanner sideInput = new Scanner(System.in);
-        Scanner dieInput = new Scanner(System.in);
+        Scanner userInput = new Scanner(System.in);
 
 //        takes input and closes the input loop
         System.out.println("How many side do you want your die to have?");
-        int dieSide = sideInput.nextInt();
+        int dieSide = userInput.nextInt();
 
 //        takes input and closes the input loop
         System.out.println("How many dice would you like to roll?");
-        int timesRolled = dieInput.nextInt();
+        int timesRolled = userInput.nextInt();
 
 //        creates a loop
         for (int i = 0; i < timesRolled; i++) {
